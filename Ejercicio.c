@@ -30,14 +30,15 @@ for (int i = 0; i < n; i++)
 //for para la primera matris 
     printf("\n");
     printf("\n");
-for (int i = 0; i < n; i++)
+for (int i = 0; i < m; i++)
 {
     printf("\n");
 
-    for (int j = 0; j < m; j++)
+    for (int j = 0; j < n; j++)
     {
         matrix2[i][j]=matrix[j][i];
         printf("%d \t", matrix2[i][j]);
+    
     }
     
 }
